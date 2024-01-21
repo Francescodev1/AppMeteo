@@ -30,8 +30,8 @@ export default function WeatherAround() {
       <Row className="mt-3  justify-content-center ">
         {WeatherAround.map((cityWeather, index) => (
           <Col key={index} md={2}>
-            <Card className='text-center'>
-              <Card.Body>
+            <Card className='text-center my-2'>
+              <Card.Body className=''>
                 <Card.Title className='text-center'>{cityWeather.name}</Card.Title>
                 <Card.Text>
                   Temperatura: {cityWeather.main.temp}°C

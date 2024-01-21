@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./assets/sfondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ 
+}
+
+.sfondo{
+
+ border: #282c34 1px solid;
+ background-color: #1c90ad;
+  
 }
